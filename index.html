@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isdang Presko</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+  <div class="container">
+
+    <!-- Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="./images/fishlogo.png" alt="Logo" width="50" class="me-2">
+      <span class="fw-bold brand-name">
+        <span class="isdang">ISDANG</span> <span class="presko">PRESKO</span>
+      </span>
+    </a>
+
+    <!-- Mobile Menu Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav gap-5">
+        <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">GALLERY</a></li>
+        <li class="nav-item"><a class="nav-link" href="#review">REVIEW</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero d-flex align-items-center text-center text-white">
+  <div class="container">
+    <h1 class="fw-bold">Fresh from the Sea,<br>Delivered Daily to Your Table!</h1>
+    <p class="hero-subtext">“We’re a local fish vendor offering fresh and affordable seafood every day. Our fish are caught and delivered straight from nearby coastal waters.”</p>
+    <a href="#contact" class="btn btn-warning px-4 py-2">GET IN TOUCH</a>
+  </div>
+</section>
+
+<!-- FEATURES ROW -->
+<section class="py-4 text-center features">
+  <div class="container">
+    <div class="row justify-content-center g-4">
+
+      <div class="col-md-3 d-flex align-items-center justify-content-center feature-item">
+        <img src="./images/fresh.png" alt="Fresh Catch" class="feature-icon me-2">
+        <span class="fw-bold">Fresh Daily Catch</span>
+      </div>
+
+      <div class="col-md-3 d-flex align-items-center justify-content-center feature-item">
+        <img src="./images/affordable.png" alt="Affordable Prices" class="feature-icon me-2">
+        <span class="fw-bold">Affordable Prices</span>
+      </div>
+
+      <div class="col-md-3 d-flex align-items-center justify-content-center feature-item">
+        <img src="./images/friendly.png" alt="Friendly Service" class="feature-icon me-2">
+        <span class="fw-bold">Friendly Service</span>
+      </div>
+
+      <div class="col-md-3 d-flex align-items-center justify-content-center feature-item">
+        <img src="./images/local.png" alt="Locally Sourced" class="feature-icon me-2">
+        <span class="fw-bold">Locally Sourced</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center bg-white p-4 shadow-sm about-box position-relative">
+
+      <!-- Text Section -->
+      <div class="col-md-7">
+        <h6 class="text-uppercase fw-bold text-secondary">About the Business</h6>
+        <h2 class="fw-bold">Isdang Presko ni<br>Lorena: Business and<br>Owner Profile</h2>
+        <p>
+          Isdang Presko ni Lorena is a well-established, local fish vending business in
+          Poblacion, Cordova, Cebu, owned and operated by Lorena Cabataña. The business provides
+          fresh, affordable fish sourced directly from local fishermen, serving both households
+          buying for daily meals and small food businesses like carinderias.
+        </p>
+        <p>
+          Lorena, a 42-year-old single mother, has continued this family business for 27 years,
+          with her five children also helping manage the operations. She represents a blend of
+          traditional entrepreneurship and a readiness for modern methods.
+        </p>
+      </div>
+
+      <!-- Image Section -->
+      <div class="col-md-5 text-center">
+        <img src="./images/profile.jpg" class="img-fluid about-img" alt="Owner">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY SECTION -->
+ <section id="gallery" class="gallery-section py-5">
+  <div class="container p-0 position-relative">
+    <img src="./images/gallery.jpg" class="img-fluid w-100 gallery-bg" alt="Gallery background">
+    <!-- Gallery header card -->
+    <div class="card gallery-card shadow">
+      <div class="card-body">
+        <h4 class="fw-bold">Gallery</h4>
+        <p>Here are some photos of our fresh fish. Want to know what's available today? Message us for updates!</p>
+        <a href="#contact" class="btn btn-warning btn-sm text-white fw-semibold">GET IN TOUCH</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gallery-pics">
+<section class="py-5">
+  <div class="container text-center">
+
+
+    <!-- ======================= ROW 1 ======================= -->
+    <!-- Desktop & Large Screens (Grid Layout) -->
+    <div class="row d-none d-md-flex justify-content-center mb-4">
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/anchovy.jpg" class="card-img-top object-fit-cover" alt="Anchovy" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Anchovy</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/spinefoot.jpg" class="card-img-top object-fit-cover" alt="Spinefoot" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Spinefoot</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/tilapia.jpg" class="card-img-top object-fit-cover" alt="Tilapia" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Tilapia</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/milkfish.jpg" class="card-img-top object-fit-cover" alt="Milk Fish" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Milk Fish</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile (Carousel Layout) -->
+    <div id="galleryCarousel1" class="carousel slide d-md-none mb-4" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/anchovy.jpg" class="card-img-top object-fit-cover" alt="Anchovy" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Anchovy</h6>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/spinefoot.jpg" class="card-img-top object-fit-cover" alt="Spinefoot" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Spinefoot</h6>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/tilapia.jpg" class="card-img-top object-fit-cover" alt="Tilapia" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Tilapia</h6>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/milkfish.jpg" class="card-img-top object-fit-cover" alt="Milk Fish" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Milk Fish</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel1" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- ======================= ROW 2 ======================= -->
+    <div class="row d-none d-md-flex justify-content-center mb-4">
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/octopus.jpg" class="card-img-top object-fit-cover" alt="Octopus" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Octopus</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/crab.jpg" class="card-img-top object-fit-cover" alt="Crab" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Crab</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/squid.jpg" class="card-img-top object-fit-cover" alt="Squid" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Squid</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/shrimp.jpg" class="card-img-top object-fit-cover" alt="Shrimp" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Shrimp</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="galleryCarousel2" class="carousel slide d-md-none mb-4" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/octopus.jpg" class="card-img-top object-fit-cover" alt="Octopus" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Octopus</h6>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/crab.jpg" class="card-img-top object-fit-cover" alt="Crab" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Crab</h6>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/squid.jpg" class="card-img-top object-fit-cover" alt="Squid" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Squid</h6>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/shrimp.jpg" class="card-img-top object-fit-cover" alt="Shrimp" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Shrimp</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel2" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- ======================= ROW 3 ======================= -->
+    <div class="row d-none d-md-flex justify-content-center">
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/mussel.webp" class="card-img-top object-fit-cover" alt="Mussel" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Mussel</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/snail.jpeg" class="card-img-top object-fit-cover" alt="Snail" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Snail</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/clam.jpg" class="card-img-top object-fit-cover" alt="Clam" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Clam</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-3">
+          <img src="./images/oyster.jpg" class="card-img-top object-fit-cover" alt="Oyster" style="width:100%; height:160px;">
+          <div class="card-body bg-white p-2 border-top">
+            <h6 class="fw-bold mb-0">Oyster</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="galleryCarousel3" class="carousel slide d-md-none" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/mussel.webp" class="card-img-top object-fit-cover" alt="Mussel" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Mussel</h6>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/snail.jpeg" class="card-img-top object-fit-cover" alt="Snail" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Snail</h6>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/clam.jpg" class="card-img-top object-fit-cover" alt="Clam" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Clam</h6>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card mx-auto border-0 shadow-sm rounded-3" style="max-width: 300px;">
+            <img src="./images/oyster.jpg" class="card-img-top object-fit-cover" alt="Oyster" style="width:100%; height:160px;">
+            <div class="card-body bg-white p-2 border-top">
+              <h6 class="fw-bold mb-0">Oyster</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel3" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel3" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  <p class="text-muted small mt-2 text-start">Note: Product may vary.</p>
+  </div>
+</section>
+</div>
+
+<!-- REVIEW SECTION -->
+<section id="review" class="py-5 bg-white">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-3">Customer Reviews</h2>
+    <p class="text-muted mb-5">
+      At Isdang Fresh, we care about quality and freshness. Here are some honest reviews from
+      people who have experienced our seafood.
+    </p>
+
+    <!-- Scrollable Row -->
+    <div class="d-flex flex-nowrap overflow-auto pb-3"
+         style="gap: 1.5rem; padding: 0 1rem; scroll-snap-type: x mandatory; scroll-padding-left: 1rem;">
+
+      <!-- CARD TEMPLATE -->
+      <div class="card border-0 shadow-sm rounded-4 flex-shrink-0 text-start"
+           style="width: clamp(280px, 35vw, 520px); aspect-ratio: 1.58; background-color: #f9f9f9; scroll-snap-align: start;">
+        <div class="card-body d-flex flex-column justify-content-between h-100" style="font-size: clamp(0.8rem, 1.5vw, 1rem);">
+
+          <!-- Centered Quote -->
+          <div class="flex-grow-1 d-flex align-items-center justify-content-center text-center px-3">
+            <p class="fst-italic text-dark mb-0" style="line-height: 1.4;">
+              "I was impressed by the freshness and texture of the seafood. The shrimp were firm and
+              sweet, just the way they should be."
+            </p>
+          </div>
+
+          <!-- Profile and Rating -->
+          <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+            <div class="d-flex align-items-center mb-2">
+              <div class="rounded-circle overflow-hidden flex-shrink-0" style="width: clamp(36px, 5vw, 56px); height: clamp(36px, 5vw, 56px);">
+                <img src="./images/emily.jpg" alt="Emily Carter" class="w-100 h-100 object-fit-cover">
+              </div>
+              <div class="ms-3">
+                <h6 class="mb-0 fw-bold" style="font-size: clamp(0.9rem, 1.6vw, 1rem);">Emily Carter</h6>
+                <small class="text-info">Home Cook</small>
+              </div>
+            </div>
+            <div class="text-warning" style="font-size: clamp(1rem, 2vw, 1.25rem);">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card border-0 shadow-sm rounded-4 flex-shrink-0 text-start"
+           style="width: clamp(280px, 35vw, 520px); aspect-ratio: 1.58; background-color: #eaf9ff; scroll-snap-align: start;">
+        <div class="card-body d-flex flex-column justify-content-between h-100" style="font-size: clamp(0.8rem, 1.5vw, 1rem);">
+
+          <div class="flex-grow-1 d-flex align-items-center justify-content-center text-center px-3">
+            <p class="fst-italic text-dark mb-0" style="line-height: 1.4;">
+              "The fish were incredibly fresh and had a clean, natural taste. You can really tell they
+              come straight from local waters."
+            </p>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+            <div class="d-flex align-items-center mb-2">
+              <div class="rounded-circle overflow-hidden flex-shrink-0" style="width: clamp(36px, 5vw, 56px); height: clamp(36px, 5vw, 56px);">
+                <img src="./images/john.jpg" alt="John Miller" class="w-100 h-100 object-fit-cover">
+              </div>
+              <div class="ms-3">
+                <h6 class="mb-0 fw-bold" style="font-size: clamp(0.9rem, 1.6vw, 1rem);">John Miller</h6>
+                <small class="text-info">Seafood Enthusiast</small>
+              </div>
+            </div>
+            <div class="text-warning" style="font-size: clamp(1rem, 2vw, 1.25rem);">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card border-0 shadow-sm rounded-4 flex-shrink-0 text-start"
+           style="width: clamp(280px, 35vw, 520px); aspect-ratio: 1.58; background-color: #f9f9f9; scroll-snap-align: start;">
+        <div class="card-body d-flex flex-column justify-content-between h-100" style="font-size: clamp(0.8rem, 1.5vw, 1rem);">
+
+          <div class="flex-grow-1 d-flex align-items-center justify-content-center text-center px-3">
+            <p class="fst-italic text-dark mb-0" style="line-height: 1.4;">
+              "Their packaging was neat, and the seafood arrived fresh and cold. It’s now my go-to
+              source for fish and shellfish!"
+            </p>
+          </div>
+
+          <div class="d-flex align-items-center justify-content-between mt-4 flex-wrap">
+            <div class="d-flex align-items-center mb-2">
+              <div class="rounded-circle overflow-hidden flex-shrink-0" style="width: clamp(36px, 5vw, 56px); height: clamp(36px, 5vw, 56px);">
+                <img src="./images/sofia.jpg" alt="Sophia Lee" class="w-100 h-100 object-fit-cover">
+              </div>
+              <div class="ms-3">
+                <h6 class="mb-0 fw-bold" style="font-size: clamp(0.9rem, 1.6vw, 1rem);">Sophia Lee</h6>
+                <small class="text-info">Food Blogger</small>
+              </div>
+            </div>
+            <div class="text-warning" style="font-size: clamp(1rem, 2vw, 1.25rem);">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- LOCATION SECTION -->
+<section class="container-fluid my-5">
+  <img src="./images/map.png" alt="Map" class="img-fluid w-100 rounded" />
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="container-fluid py-5 bg-light">
+  <div class="container">
+    <div class="row justify-content-between align-items-start">
+      
+      <!-- Location -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Where to find us</h5>
+        <p class="text-muted">We are always at your service.</p>
+
+        <div class="contact-item d-flex align-items-start mb-2">
+          <img src="./images/location.png" alt="Location" class="icon-img me-2">
+          <div>
+            <div>Juan Sitoy St, Cordova 6017 Cebu</div>
+          </div>
+        </div>
+
+        <div class="contact-item d-flex align-items-center">
+          <img src="./images/phone-call.png" alt="Phone" class="icon-img me-2">
+          <div>09054459220</div>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3 mb-4">
+        <ul class="list-unstyled mt-4">
+          <li class="mb-2"><a href="#" class="text-dark text-decoration-none">Home</a></li>
+          <li class="mb-2"><a href="#about" class="text-dark text-decoration-none">About</a></li>
+          <li class="mb-2"><a href="#gallery" class="text-dark text-decoration-none">Gallery</a></li>
+          <li class="mb-2"><a href="#review" class="text-dark text-decoration-none">Review</a></li>
+          <li><a href="#contact" class="text-dark text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-md-4">
+        <h5 class="fw-bold">Contact Us</h5>
+        <form>
+          <input
+            type="email"
+            class="form-control mb-3 bg-light"
+            placeholder="EMAIL"
+            required
+          />
+          <textarea
+            class="form-control mb-3 bg-light"
+            placeholder="MESSAGE"
+            rows="5"
+            style="height: 150px; resize: none;"
+            required
+          ></textarea>
+          <button class="btn btn-warning text-white fw-bold px-4">
+            GET IN TOUCH
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center text-white py-3" style="background-color: #023f44;">
+  <small><i class="bi bi-c-circle me-1"></i> © All Rights Reserved</small>
+</footer>
+
+</body>
+</html>
